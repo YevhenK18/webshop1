@@ -1,0 +1,43 @@
+
+body {
+    background-image: url('klara-kulikova-CPMZguYURMw-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+.about-section1 {
+    background-color: rgba(250, 117, 117, 0.726);
+    padding: 20px;
+    margin-top: 20px;
+}
+.about-section2 {
+    background-color: rgba(230, 245, 165, 0.712);
+    padding: 20px;
+    margin-top: 20px;
+}
+.about-section3 {
+    background-color: rgba(245, 107, 192, 0.774);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.social-icons, .footer-menu {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #fff;
+}

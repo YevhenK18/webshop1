@@ -1,0 +1,73 @@
+.custom-navbar {
+    background-color: rgba(221, 95, 95, 0.671);
+}
+
+body {
+    background-image: url('jesse-ramirez-YiSD-1eJ_1g-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+.about-section {
+    background-color: rgba(200, 200, 200, 0.7);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#contactForm {
+    width: 400px;
+    padding: 20px;
+    background-color: #f8f9fa; /* Серая подложка */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    width: 100%;
+}
+
+.error {
+    margin-top: 5px;
+}
+
+#successMessage {
+    margin-top: 20px;
+}
+.footer {
+    background-color: rgba(221, 95, 95, 0.671);
+}
